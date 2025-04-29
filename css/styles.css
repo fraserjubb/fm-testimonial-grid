@@ -198,6 +198,7 @@ Basic Card:
   font-size: var(--20px);
   line-height: 1.2;
   font-weight: 600;
+  z-index: 2;
 }
 
 .card__quote {
@@ -208,24 +209,64 @@ Basic Card:
 Unique Card Properties
 **** 
 */
+
+/* 
+**
+Card 1
+**
+*/
 .card--1 {
   background-color: var(--clr-purple-500);
   color: #fff;
+
+  position: relative;
 }
 
+/* Decor */
+.card--1::before {
+  content: "";
+  width: 104px;
+  height: 102px;
+  background: url("/assets/images/bg-pattern-quotation.svg");
+  color: yellow;
+  position: absolute;
+  top: 0;
+  left: 376px;
+}
+
+/* 
+**
+Card 2
+**
+*/
 .card--2 {
   background-color: var(--clr-grey-500);
   color: #fff;
 }
 
+/* 
+**
+Card 3
+**
+*/
 .card--3 {
 }
 
+/* 
+**
+Card 4
+**
+*/
 .card--4 {
   background-color: var(--clr-dark-blue);
   color: #fff;
 }
 
+/* 
+**
+Card 5
+**
+*/
 .card--5 {
 }
 
