@@ -1,16 +1,24 @@
 :root {
   /* Colors: */
-  --clr-dark: #020717;
-  --clr-light: #f1f5f9;
-  --clr-slate: #94a3b8;
-  --clr-primary: #ff69b4;
+  --clr-grey-100: #e7eaee;
+  --clr-grey-200: #cfcfcf;
+  --clr-grey-400: #676d7e;
+  --clr-grey-500: #48556a;
+  --clr-black: #121212;
+  --clr-dark-blue: #19212e;
+  --clr-purple-50: #eee5ff;
+  --clr-purple-300: #c4a2f6;
+  --clr-purple-500: #7541c8;
+  --clr-border: #a775f1;
   --clr-attribution: #3e52a3;
 
   /* Pixel Sizes: */
   --4px: 0.25rem;
   --8px: 0.5rem;
   --10px: 0.625rem;
+  --11px: 0.6875rem;
   --12px: 0.75rem;
+  --13px: 0.8125rem;
   --14px: 0.875rem;
   --16px: 1rem;
   --18px: 1.125rem;
@@ -26,6 +34,8 @@
   --40px: 2.5rem;
   --50px: 3.125rem;
   --60px: 3.75rem;
+  --255px: 15.94rem;
+  --1440px: 90rem;
 }
 
 /* 
@@ -35,8 +45,8 @@ SELF-HOSTING FONT:
 */
 @font-face {
   font-family: "Barlow Semi Condensed";
-  src: url("BarlowSemiCondensed-SemiBold.woff2") format("woff2"),
-    url("BarlowSemiCondensed-SemiBold.woff") format("woff");
+  src: url("/assets/fonts/BarlowSemiCondensed-SemiBold.woff2") format("woff2"),
+    url("/assets/fonts/BarlowSemiCondensed-SemiBold.woff") format("woff");
   font-weight: 600;
   font-style: normal;
   font-display: swap;
@@ -44,8 +54,8 @@ SELF-HOSTING FONT:
 
 @font-face {
   font-family: "Barlow Semi Condensed";
-  src: url("BarlowSemiCondensed-Medium.woff2") format("woff2"),
-    url("BarlowSemiCondensed-Medium.woff") format("woff");
+  src: url("/assets/fonts/BarlowSemiCondensed-Medium.woff2") format("woff2"),
+    url("/assets/fonts/BarlowSemiCondensed-Medium.woff") format("woff");
   font-weight: 500;
   font-style: normal;
   font-display: swap;
@@ -70,14 +80,14 @@ GLOBAL CSS VALUES:
 }
 
 body {
-  font-family: "Barlow Semi Condensed", sans-serif; /* Or serif*/
-  font-size: var(--16px);
-  font-weight: 400;
-  line-height: 1.2;
+  font-family: "Barlow Semi Condensed", sans-serif;
+  font-size: var(--13px);
+  font-weight: 500;
+  line-height: 1.4;
   letter-spacing: 0;
 
-  background-color: hotpink;
-  /* color: ; */
+  background-color: #f6f5f6;
+  color: var(--clr-grey-400);
 }
 
 img,
@@ -94,11 +104,6 @@ svg {
 MAIN:
 ********************************
 */
-h1 {
-  font-size: var(--24px);
-  text-align: center;
-  color: var(--clr-slate);
-}
 
 /* 
 ********************************
@@ -115,19 +120,16 @@ FOOTER:
 }
 
 /* LINKS */
-/* Default State */
-.attribution a:link {
-  color: var(--clr-attribution);
-  text-decoration: none;
-}
-
-/* Visited State */
+/* Default/Visited State */
+.attribution a:link,
 .attribution a:visited {
   color: var(--clr-attribution);
+  text-decoration: none;
 }
 
 /* State On Hover / Whilst being clicked */
 .attribution a:hover,
 .attribution a:active {
+  cursor: pointer;
   opacity: 75%;
 }
