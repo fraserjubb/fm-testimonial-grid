@@ -1,0 +1,8 @@
+.DS_Store
+.prettierignore
+
+
+design/
+
+# /style-guide.md
+# /product-preview-card-component.fig
