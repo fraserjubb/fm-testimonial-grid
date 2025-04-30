@@ -105,7 +105,7 @@ MAIN:
 ********************************
 */
 .container {
-  max-width: 1440px;
+  max-width: 90rem /* 1440px */;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -122,7 +122,7 @@ CSS GRID
   display: grid;
 
   grid-template-columns: repeat(4, var(--255px));
-  grid-template-rows: 288px 270px;
+  grid-template-rows: 18rem 16.88rem /* 288px 270px */;
   column-gap: var(--32px);
   row-gap: var(--24px);
 
@@ -155,7 +155,7 @@ CSS GRID
 Basic Card:
 **** */
 .card {
-  max-width: 540px;
+  max-width: 33.75rem /* 540px */;
   max-height: 100%;
   border-radius: var(--8px);
   padding: var(--32px);
@@ -166,7 +166,7 @@ Basic Card:
 
   background-color: #fff;
 
-  box-shadow: 14px 33px 58px -2px rgba(0, 0, 0, 0.4);
+  box-shadow: 0.875rem 2.063rem 3.625rem -0.125rem rgba(0, 0, 0, 0.4);
 }
 
 .card__profile {
@@ -225,13 +225,12 @@ Card 1
 /* Decor */
 .card--1::before {
   content: "";
-  width: 104px;
-  height: 102px;
+  width: 6.5rem /* 104px */;
+  height: 6.375rem /* 102px */;
   background: url("/assets/images/bg-pattern-quotation.svg");
-  color: yellow;
   position: absolute;
   top: 0;
-  left: 376px;
+  left: 21.63rem /* 376px */;
 }
 
 /* 

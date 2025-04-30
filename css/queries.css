@@ -3,15 +3,16 @@
 SMALL LAPTOP | TABLET:
 ********************************
 */
+
 @media (max-width: 1175px) {
   .container {
-    margin: 40px auto;
+    margin: var(--40px) auto;
   }
 
   /* CSS Grid */
   .cards-grid {
-    grid-template-columns: repeat(2, 307.5px);
-    grid-template-rows: 270px 246px 270px 275px;
+    grid-template-columns: repeat(2, 19.19rem); /* 307.5px */
+    grid-template-rows: 16.88rem 15.38rem 16.88rem 17.19rem /* 270px 246px 270px 275px */;
     row-gap: var(--32px);
   }
 
@@ -32,11 +33,11 @@ SMALL LAPTOP | TABLET:
 
   /* Card Properties */
   .card {
-    max-width: 647px;
+    max-width: 40.44rem /* 647px */;
   }
 
   .card__profile {
-    gap: 17px;
+    gap: 1.063rem /* 17px */;
   }
 }
 
@@ -45,11 +46,12 @@ SMALL LAPTOP | TABLET:
 MOBILE:
 ********************************
 */
+
 @media (max-width: 660px) {
   /* CSS Grid */
   .cards-grid {
     grid-template-columns: auto;
-    grid-template-rows: 450px 246px 226px 414px 503px;
+    grid-template-rows: 28.13rem 15.38rem 14.13rem 25.88rem 31.44rem /* 450px 246px 226px 414px 503px */;
   }
 
   .card--1,
@@ -63,7 +65,7 @@ MOBILE:
 
   /* Card Properties */
   .card {
-    max-width: 305px;
+    max-width: 19.06rem /* 305px */;
   }
 
   /* Decor */
