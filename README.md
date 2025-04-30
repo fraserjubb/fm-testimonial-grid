@@ -39,22 +39,18 @@ This is a solution to [this challenge on Frontend Mentor](https://www.frontendme
 
 In this particular project:
 
-1.
-
-```css
-<Code proud of>
-```
+1. This was my first Frontend Mentor project using CSS grid. I feel much more comfortable using it now and have taken the time to understand how the main properties work.
 
 ### Continued Development
 
 After submitting this project, I wish to develop the following:
 
-1. <text>
+1. I'm finally happy with the level of my HTML and CSS skills. Though I will continue practicing and developing them further, I am now focusing on learning JavaScript so that I can incorporate DOM manipulation into my projects.
 
 ### Useful Resources
 
-- Nothing of note used for this project.
-- [<Text to appear> (<Media Type>)](link) - <description of how it helped>
+- [CSS Grid (MDN Documentation)](https://developer.mozilla.org/en-US/docs/Web/CSS/grid)
+- [Modern HTML & CSS From The Beginning 2.0 (Udemy Course)](https://www.udemy.com/course/modern-html-css-from-the-beginning/?couponCode=ST7MT290425G3://developer.mozilla.org/en-US/docs/Web/CSS/grid) - One of the online courses I used when learning HTML & CSS.
 
 ## Noteworthy Updates Since Initial Submission
 
@@ -68,6 +64,3 @@ After submitting this project, I wish to develop the following:
 <a href="https://x.com/fraserjubb"><img height="30px" align="left" alt="X" style="padding-right:10px" title="X" src="https://img.shields.io/badge/X-%23000000.svg?style=plastic&logo=X&logoColor=white"/></a>
 <a href="https://www.youtube.com/@thejubbzone2374"><img height="30px" align="left" alt="YouTube" style="padding-right:10px" title="YouTube" src="https://img.shields.io/badge/YouTube-%23FF0000.svg?style=plastic&logo=YouTube&logoColor=white"/></a>
 <a href="mailto:fraserjubb.dev@gmail.com"><img height="30px" align="left" alt="Gmail" style="padding-right:10px" title="Gmail" src="https://img.shields.io/badge/Gmail-D14836?style=plastic&logo=gmail&logoColor=white"/></a>
-
-<br/>
-# fm-testimonial-grid
