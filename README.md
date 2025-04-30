@@ -23,8 +23,8 @@ This is a solution to [this challenge on Frontend Mentor](https://www.frontendme
 
 ### Project Links
 
-- Solution URL: [Click Here](url)
-- Live Site URL: [Click Here](url)
+- Solution URL: [Click Here](https://www.frontendmentor.io/solutions/testimonial-grid-solution---challenge-9-8TGnwk49wF)
+- Live Site URL: [Click Here](https://fm-testimonialgrid-fraser.netlify.app/)
 - Frontend Mentor Profile: [@fraserjubb](https://www.frontendmentor.io/profile/fraserjubb)
 
 ## My Process
